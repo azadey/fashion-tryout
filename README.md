@@ -1,9 +1,6 @@
 # fashion-tryout
 
-<video src='Results/driving_1_source_9_demo.mp4' width=180/>
-
-https://user-images.githubusercontent.com/1397092/196004516-5748ae90-8f80-40ef-8b3a-76462822cd1b.mp4
-
+<video src='https://user-images.githubusercontent.com/1397092/196004516-5748ae90-8f80-40ef-8b3a-76462822cd1b.mp4' width=180/>
 
 
 https://user-images.githubusercontent.com/1397092/196004544-d6826392-d49d-4fc9-83f0-3c926181a3cf.mp4
