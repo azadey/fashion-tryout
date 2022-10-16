@@ -1,4 +1,24 @@
-# fashion-tryout
+# Fashion Tryout
+This was a research project to implement a virtual try-on system.
+When a user provides a image them selve a virtual image of user wearing different clothes is synthesized using deep learning models.
+This was inspired by first order motion model by AliaksandrSiarohin [first-order-motion-model](https://github.com/AliaksandrSiarohin/first-order-model)
+The deep learning training was done on google colab environment.
+
+### Steps to Run the code.
+- It is important that the runtime setting is set as GPU. The we install the packages.
+- The fashion dataset provided consists of two text files (fashion_train.txt and fashion_test.txt);
+these two files are downloaded for data preparation.
+- The following code is executed to train the data.
+`!CUDA_VISIBLE_DEVICES=0,1,2,3 python run.py --config config/fashion-256.yml --device_ids 0,1,2,3`
+- The driving videos used for this implementation can be downloaded from the following link:
+https://drive.google.com/drive/folders/1JM8ZjI7YO8WXGpUi5XAzqrvrWN9Z2KSo?usp=s
+haring.
+- The source files used for the implementation can be downloaded from the following link:
+https://drive.google.com/drive/folders/1Wu-
+3q8XvAb8QD4yqeCUmTDXf1HQ3lUvB?usp=sharing
+- Trained checkpoint data (fashion.pth.tar) can be downloaded from the following link:
+https://drive.google.com/file/d/1W7qunHxacXC8tdkHjMyLF43nTbIf8HwX/view?usp=shari
+ng.
 
 
 ### Results 1
