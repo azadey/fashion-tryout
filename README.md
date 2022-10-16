@@ -2,7 +2,7 @@
 This was a research project to implement a virtual try-on system.
 When a user provides a image them selve a virtual image of user wearing different clothes is synthesized using deep learning models.
 This was inspired by first order motion model by AliaksandrSiarohin [first-order-motion-model](https://github.com/AliaksandrSiarohin/first-order-model)
-The deep learning training was done on google colab environment.
+The deep learning training was done on google colab environment. The training data used was from open sourced Large-scale Fashion (DeepFashion) Database [dataset](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)
 
 ### Steps to Run the code.
 - It is important that the runtime setting is set as GPU. The we install the packages.
